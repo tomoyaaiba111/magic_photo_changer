@@ -1,0 +1,126 @@
+h1 {
+    font-size: 2.0em;
+    font-weight: bold;
+    margin-left: 20px;
+    color:#1abac5;
+}
+
+h2{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color:#1abac5;
+}
+
+p{
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+
+.ptagu1{
+    font-weight: bold;
+    color:#ae1ac5; 
+}
+
+.ptagu2{
+    color:#ae1ac5; 
+}
+
+.ptagu3{
+    color:#c51a31; 
+}
+
+#canvas {
+    display: block;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+ 
+#red, #green, #blue, #opacity{
+    width: 400px;
+    vertical-align:middle;
+    margin-right: 30px;
+}
+ 
+#color {
+    border: 1px solid black;
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+    vertical-align:middle;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+ 
+/* 青いバーのRGBC */
+.r, .g, .b, .a{
+    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+ 
+.r{
+    color:red;
+}
+.g{
+    color:green;
+}
+.b{
+    color:blue;
+}
+ 
+/* 青いバー */
+.range {
+    margin-bottom: 20px;
+}
+/* 選択した画像ファイル */
+#file {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+/* ファイルを選択のボタン */
+.button1 {
+    background: #b1f1e9;
+    color: white; 
+    font-weight: bold;
+    padding: 10px 30px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 15px; 
+    margin: 3px 10px; 
+    margin-right: 80px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 #bbb;
+    transition: box-shadow .25s;
+    border: 2px solid #b1f1e9;
+}
+.button1:hover {
+    box-shadow: 0 0 0 #bbb;
+}
+
+/* ダウンロードのボタン */
+.button2 {
+    background: #b1f1e9;
+    color: white; 
+    font-weight: bold;
+    padding: 10px 30px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 15px; 
+    margin: 3px 10px;
+    margin-bottom: 20px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 #bbb;
+    transition: box-shadow .25s;
+    border: 2px solid #b1f1e9;
+}
+.button2:hover {
+    box-shadow: 0 0 0 #bbb;
+}
+
