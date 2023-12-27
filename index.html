@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Photo Changer</title>
+<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+<link rel = "stylesheet" href = "./style.css" type = "text/css" media = "all">
+</head>
+ 
+<body>
+ 
+<h1>Magic Photo Changer</h1>
+<h2>あなたのPhotoをmakeupして素敵なPhotoを作成しましょう♪♪</h2>
+<p class="ptagu1">[ 使用手順 ]</p>
+<p class="ptagu2">1. "ファイルを選択" ボタンから色彩調整したい写真を選択します。</p>
+<p class="ptagu2">2. 下の青いバーで色彩の調整をします。 ( Rは赤色, Gは緑色, Bは青色, Cは明暗の調整ができます )</p>
+<p class="ptagu2">3. "ダウンロード" ボタンから作成した写真をダウンロードすることができます。</p>
+<p class="ptagu3">※ "ファイルを選択" は拡張子が ". jpeg" , ". jpg" , ". png" のファイルを選択してください。</p>
+<p class="ptagu3">※ "ダウンロード" は拡張子が ". png" のファイルとして出力されます。</p>
+
+<input id="file" type="file" style="display: none;">
+<button class="button1" id="uploadBtn">ファイルを選択</button>
+<button class="button2" onclick="download()">ダウンロード</button>
+
+<div class="range"><span class = "r">[ R ]</span><input type="range" min="0" max="255" step="1" id = "red"><span class = "r" id = "r-value"></span></div>
+<div class="range"><span class = "g">[ G ]</span><input type="range" min="0" max="255" step="1" id = "green"><span class = "g" id = "g-value"></span></div>
+<div class="range"><span class = "b">[ B ]</span><input type="range" min="0" max="255" step="1" id = "blue"><span class = "b" id = "b-value"></span></div>
+<div class="range"><span class = "a">[ C ]</span><input type="range" min="0" max="1" step="0.001" id = "opacity"><span class = "a" id = "a-value"></span></div>
+<span id = "color"></span><span id = "color-code"></span>
+<canvas id = "canvas"></canvas>
+ 
+<script src= "./script.js"></script>
+
+</body>
+</html>
