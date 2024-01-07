@@ -1,4 +1,6 @@
 # magic_photo_changer
+Webアプリケーション >> https://tomoyaaiba111.github.io/magic_photo_changer/
+
 upしたPhotoを,RGBと彩度を調整して編集できるWebアプリです。
 [使用手順]
 1. "ファイルを選択" ボタンから色彩調整したい写真を選択します。
